@@ -31,6 +31,7 @@ brew uninstall --cask --zap talune  # apaga os dados do app (não os itens do Ke
 
 | Versão | Assets | Requisito |
 | --- | --- | --- |
+| 1.1.0 | `Talune_1.1.0_x64-setup.exe`, `Talune_1.1.0_x64_en-US.msi` | Windows 10/11 x64 |
 | 1.0.0 | `Talune_1.0.0_aarch64.dmg` | macOS arm64, Sonoma+ |
 | 1.0.0 | `Talune_1.0.0_x64-setup.exe`, `Talune_1.0.0_x64_en-US.msi` | Windows 10/11 x64 |
 
