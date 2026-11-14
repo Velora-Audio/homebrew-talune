@@ -1,8 +1,8 @@
 cask "talune" do
-  version "1.0.0"
-  sha256 "fe8fbd373b7f1a928fb9345a753a164d1300b5bcf07a44ba12b9a046cb157021"
+  version "1.1.0"
+  sha256 "37a347e2b6ed809c31c0390bda4a5e757cf683a8af3bc0d7b1f282d3ff0b7da6"
 
-  url "https://github.com/Velora-Audio/talune-app/releases/download/v#{version}/Talune_#{version}_aarch64.dmg"
+  url "https://github.com/Velora-Audio/talune-app/releases/download/v#{version}/Talune_#{version}_universal.dmg"
   name "Talune"
   desc "Desktop client for Talune"
   homepage "https://github.com/Velora-Audio/talune-client"

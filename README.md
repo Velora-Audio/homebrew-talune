@@ -31,6 +31,7 @@ brew uninstall --cask --zap talune  # apaga os dados do app (não os itens do Ke
 
 | Versão | Assets | Requisito |
 | --- | --- | --- |
+| 1.1.0 | `Talune_1.1.0_universal.dmg` | macOS arm64, Sonoma+ |
 | 1.1.0 | `Talune_1.1.0_x64-setup.exe`, `Talune_1.1.0_x64_en-US.msi` | Windows 10/11 x64 |
 | 1.0.0 | `Talune_1.0.0_aarch64.dmg` | macOS arm64, Sonoma+ |
 | 1.0.0 | `Talune_1.0.0_x64-setup.exe`, `Talune_1.0.0_x64_en-US.msi` | Windows 10/11 x64 |
@@ -38,7 +39,7 @@ brew uninstall --cask --zap talune  # apaga os dados do app (não os itens do Ke
 ## Publicar versão nova (dono)
 
 1. Gerar os instaladores (`scripts/build-mac.sh` no `talune-client`; `build-windows.ps1`/`build-msix.ps1` no Windows) e anotar os SHA-256.
-2. Atualizar `version` e `sha256` em `Casks/talune.rb` (nomes de asset exatamente os gerados; o DMG segue o padrão `Talune_#{version}_aarch64.dmg` da `url`).
+2. Atualizar `version`, `sha256` e `url` em `Casks/talune.rb` (nomes de asset exatamente os gerados; o DMG 1.1.0 é universal: `Talune_#{version}_universal.dmg`).
 3. `git tag vX.Y.Z main && git push origin vX.Y.Z` no `talune-client` (só o dono cria tag).
 4. Anexar os instaladores ao release deste repo:
 
