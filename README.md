@@ -36,6 +36,13 @@ brew uninstall --cask --zap talune  # apaga os dados do app (não os itens do Ke
 | 1.0.0 | `Talune_1.0.0_aarch64.dmg` | macOS arm64, Sonoma+ |
 | 1.0.0 | `Talune_1.0.0_x64-setup.exe`, `Talune_1.0.0_x64_en-US.msi` | Windows 10/11 x64 |
 
+## SHA-256 (instaladores 1.1.0 corrigidos)
+
+| Asset | SHA-256 |
+| --- | --- |
+| `Talune_1.1.0_x64-setup.exe` | `4bab301cfe1a9bae0543eb08899d823709b59af1d655b0f343ea283a6441f049` |
+| `Talune_1.1.0_x64_en-US.msi` | `1fdf5186e6857b1fafd576e1bcfe5d8ecc2fa4f02b83fd583f73666dae107706` |
+
 ## Publicar versão nova (dono)
 
 1. Gerar os instaladores (`scripts/build-mac.sh` no `talune-client`; `build-windows.ps1`/`build-msix.ps1` no Windows) e anotar os SHA-256.
